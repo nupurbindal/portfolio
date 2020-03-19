@@ -220,6 +220,12 @@ h2 {
     margin: 0 auto;
     animation: none !important;
     }
+    
+    .landing {
+        display: grid;
+        grid-template-rows: 650px;
+        grid-template-columns: 500px;
+    }
 
 
 }
