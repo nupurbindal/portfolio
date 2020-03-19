@@ -12,12 +12,12 @@
     </script>
 
     <meta charset="UTF-8">
-    <link href='style.css' rel='stylesheet' type='text/css' media='screen'>
+    <link href='style.css' rel='stylesheet'>
     <title>Portfolio</title>
 </head>
 <body>
     <header>
-        <h1 class="title"> Nupur Bindal </h1>
+        <div class="skip"><a href="#main">Skip to Main Content</a></div>
         <nav aria-label="navigation">
             <ul class="nav_menu">
                 <li><a href="index.html">Home</a></li>
@@ -28,7 +28,9 @@
         </nav>
     </header>
     <main>
+        <a id="main"></a>
         <div class="about">
+            <h1 class="salutation">Hi, I'm Nupur!</h1>
             <p class="intro">I’m a first year Masters in Information student at the University of Michigan with a focus on <br>
                 Human-Computer Interaction. With an undergraduate degree in Math and an undying love for Art <br>
                 and Design, I found my equilibrium in UX Design - a field that lets me explore the creative <br>
@@ -62,13 +64,26 @@
             </div>
         </div>
         <div class="contact-form">
-            <form id="contact" action="/action_page.php">
+            <form id="contact" action="https://formspree.io/FORM_ID"
+            method="POST">
                 <h2>Let's Talk!</h2>
                 
+                <label>
+                    Your Name:
+                    <br>
+                </label>
                 <input id="name" placeholder="Your name" type="text">
+                <label>
+                    Your Email:
+                    <br>
+                </label>
                 <input id="email" placeholder="Email Address" type="text">
+                <label>
+                    Message:
+                    <br>
+                </label>
                 <textarea id="content" placeholder="Start typing..." type="text" style="height:150px"></textarea>
-                <input type="submit" value="Submit">
+                <input type="submit" value="Send">
             </form>
         </div>
     </main>
