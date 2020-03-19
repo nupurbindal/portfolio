@@ -18,6 +18,17 @@ h1 {
     padding-left: 80px;
     font-family: 'Playfair Display', serif;
     font-size: 36px;
+    color: #131313;
+    letter-spacing: .15em;
+    text-shadow: 
+      1px -1px 0 #b4b4b4, 
+      -1px 2px 1px #a7a5a5, 
+      -2px 4px 1px #b9b8b8, 
+      -3px 6px 1px #b6b1b1, 
+      -4px 8px 1px #c0bfbf, 
+      -5px 10px 1px #c2c2c2, 
+      -6px 12px 1px #cfcccc, 
+      -7px 14px 1px #d1cece;
 }
 
 ul { 
